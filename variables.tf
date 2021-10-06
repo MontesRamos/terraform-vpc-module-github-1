@@ -1,13 +1,3 @@
-variable "region" {
-  type = string
-  description = "aws region"
-}
-
-variable "profile" {
-  type = string
-  default = "default"
-}
-
 variable "vpc_name" {
   type = string
   description = "vpc name"
